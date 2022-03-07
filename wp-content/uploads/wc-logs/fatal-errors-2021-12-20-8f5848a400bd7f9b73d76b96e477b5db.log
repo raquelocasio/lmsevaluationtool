@@ -1,0 +1,9 @@
+2021-12-20T19:20:35+00:00 CRITICAL Uncaught Error: Class 'Automattic\WooCommerce\Admin\DataSourcePoller' not found in C:\Bitnami\wordpress-5.8-0\apps\wordpress\htdocs\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\RemoteInboxNotifications\DataSourcePoller.php:15
+Stack trace:
+#0 C:\Bitnami\wordpress-5.8-0\apps\wordpress\htdocs\wp-content\plugins\woocommerce\vendor\jetpack-autoloader\class-php-autoloader.php(87): require()
+#1 [internal function]: Automattic\Jetpack\Autoloader\jp7fa27687a59114a5aec1ac3080434897\PHP_Autoloader::load_class()
+#2 C:\Bitnami\wordpress-5.8-0\apps\wordpress\htdocs\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\Events.php(100): spl_autoload_call()
+#3 C:\Bitnami\wordpress-5.8-0\apps\wordpress\htdocs\wp-includes\class-wp-hook.php(303): Automattic\WooCommerce\Admin\Events->do_wc_admin_daily()
+#4 C:\Bitnami\wordpress-5.8-0\apps\wordpress\htdocs\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#5 C:\Bitnami\wordpress-5.8-0\apps\wordpress\htdocs\wp-includes\plugin.php(518): WP_Hook->do in C:\Bitnami\wordpress-5.8-0\apps\wordpress\htdocs\wp-content\plugins\woocommerce\packages\woocommerce-admin\src\RemoteInboxNotifications\DataSourcePoller.php on line 15
+

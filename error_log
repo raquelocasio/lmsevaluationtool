@@ -1,0 +1,18 @@
+[05-Jan-2022 17:22:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update() on null in /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-content/plugins/optinmonster/OMAPI/Actions.php:203
+Stack trace:
+#0 /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-includes/class-wp-hook.php(303): OMAPI_Actions->check_upgrade_routines('')
+#1 /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-content/plugins/optinmonster/optin-monster-wp-api.php(429): do_action('optin_monster_a...')
+#4 /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-content/plugins/optinmonster/optin-monster-wp-api.php(354): OMAPI->load_global()
+#5 /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-includes/class-wp-hook.php(303): OMAPI->init('')
+#6 /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-includes/class-wp-hook.php(32 in /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-content/plugins/optinmonster/OMAPI/Actions.php on line 203
+[05-Jan-2022 17:23:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update() on null in /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-content/plugins/optinmonster/OMAPI/Actions.php:203
+Stack trace:
+#0 /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-includes/class-wp-hook.php(303): OMAPI_Actions->check_upgrade_routines('')
+#1 /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-content/plugins/optinmonster/optin-monster-wp-api.php(429): do_action('optin_monster_a...')
+#4 /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-content/plugins/optinmonster/optin-monster-wp-api.php(354): OMAPI->load_global()
+#5 /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-includes/class-wp-hook.php(303): OMAPI->init('')
+#6 /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-includes/class-wp-hook.php(32 in /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-content/plugins/optinmonster/OMAPI/Actions.php on line 203

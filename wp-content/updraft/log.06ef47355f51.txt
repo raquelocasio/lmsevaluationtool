@@ -1,0 +1,577 @@
+0000.003 (0) Opened log file at time: Thu, 03 Mar 2022 21:49:48 +0000 on https://raquelocasio.com/lmsevaluationtool
+0000.009 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.7 WP: 5.9.1 PHP: 7.4.28 (cgi-fcgi, Linux gator3012.hostgator.com 4.19.150-76.ELK.el6.x86_64 #1 SMP Wed Oct 7 01:34:10 CDT 2020 x86_64) MySQL: 5.6.41-84.1 (max packet size=268435456) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 37.3M | 38.5M) multisite: N openssl: OpenSSL 1.1.1m  14 Dec 2021 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.143 (0) Free space on disk containing Updraft's temporary directory: 132902.1 MB
+0000.149 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: weekly)
+0000.150 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.163 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1645833475, seconds_ago=510713)
+0000.165 (0) Set semaphore last lock (fd) time to 2022-03-03 21:49:48
+0000.166 (0) Semaphore lock (fd) complete
+0000.172 (0) Backup run: resumption=0, nonce=06ef47355f51, file_nonce=06ef47355f51 begun at=1646344188 (0s ago), job type=backup
+0000.191 (0) Scheduling a resumption (1) after 300 seconds (1646344488) in case this run gets aborted
+0000.230 (0) Checking if we have a zip executable available
+0000.231 (0) Testing: /usr/bin/zip
+0000.242 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.245 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.246 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.247 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.248 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.257 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.259 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.270 (0) Working binary zip found: /usr/bin/zip
+0000.273 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.274 (0) Creation of backups of directories: beginning
+0000.278 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.765 (0) Total entities for the zip file: 359 directories, 2457 files (0 skipped as non-modified), 44.4 MB
+0000.768 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.771 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.774 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.778 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.781 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.784 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.788 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.791 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.794 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.798 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.800 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11.2 MB, 2457 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0002.886 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.tmp: size is now: 3.60 MB
+0002.890 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.tmp: 1100 files added (on-disk size: 3653.1 KB)
+0002.892 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.tmp: 1200 files added (on-disk size: 3653.1 KB)
+0002.895 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.tmp: 1300 files added (on-disk size: 3653.1 KB)
+0002.897 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.tmp: 1400 files added (on-disk size: 3653.1 KB)
+0002.899 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.tmp: 1500 files added (on-disk size: 3653.1 KB)
+0002.901 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.tmp: 1600 files added (on-disk size: 3653.1 KB)
+0002.903 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.tmp: 1700 files added (on-disk size: 3653.1 KB)
+0002.905 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.tmp: 1800 files added (on-disk size: 3653.1 KB)
+0002.907 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.tmp: 1900 files added (on-disk size: 3653.1 KB)
+0002.910 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.tmp: 2000 files added (on-disk size: 3653.1 KB)
+0002.910 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (16.7 MB, 2457 files batched, 1001 (2002) added so far); re-opening (prior size: 3653.1 KB)
+0004.511 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.tmp: size is now: 8.10 MB
+0004.519 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.tmp: 2100 files added (on-disk size: 8299.2 KB)
+0004.522 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.tmp: 2200 files added (on-disk size: 8299.2 KB)
+0004.525 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.tmp: 2300 files added (on-disk size: 8299.2 KB)
+0004.528 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.tmp: 2400 files added (on-disk size: 8299.2 KB)
+0005.917 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.tmp: size is now: 13.10 MB
+0005.989 (0) Creating zip file manifest (/home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-content/updraft/backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.list-temp.tmp)
+0006.000 (0) Successfully created zip file manifest (size: 203962)
+0006.232 (0) Created plugins zip (0) - 13451.4 KB in 5.9 s (2285.7 KB/s) (sha1: 64644bc50c1a7dd09c34ba834921f44ec8f43458, sha256: cc4a52338325e8e5731f07617fbe926586080385ec864895cfddf76087478aad)
+0006.234 (0) Beginning creation of dump of themes (split every: 400 MB)
+0007.175 (0) Total entities for the zip file: 299 directories, 765 files (0 skipped as non-modified), 24.5 MB
+0007.179 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0007.183 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0007.186 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0007.188 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0007.191 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0007.195 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0007.197 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0009.307 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-themes.zip.tmp: size is now: 9.10 MB
+0009.329 (0) Creating zip file manifest (/home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-content/updraft/backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-themes.zip.list-temp.tmp)
+0009.334 (0) Successfully created zip file manifest (size: 64995)
+0009.499 (0) Created themes zip (0) - 9365.4 KB in 3.2 s (2916.2 KB/s) (sha1: 052ad8e35908df3d6d45a31b9e7e925799338d98, sha256: 24c74b60f13e0efb6f8e5cc8c4cba64ff1bcfeaa718979da01a786d828d57654)
+0009.503 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0009.504 (0) Looking for candidates to backup in: /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-content/uploads
+0009.505 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (1)
+0009.505 (0) finding files: 2012: adding to list (2)
+0009.506 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (3)
+0009.506 (0) finding files: 2022: adding to list (4)
+0009.507 (0) finding files: astra-sites: adding to list (5)
+0009.507 (0) finding files: 2008: adding to list (6)
+0009.508 (0) finding files: woocommerce-placeholder.png: adding to list (7)
+0009.509 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (8)
+0009.509 (0) finding files: woocommerce-placeholder-930x620.png: adding to list (9)
+0009.510 (0) finding files: sucuri: adding to list (10)
+0009.510 (0) finding files: woocommerce-placeholder-450x450.png: adding to list (11)
+0009.511 (0) finding files: wc-logs: adding to list (12)
+0009.511 (0) finding files: wpforms: adding to list (13)
+0009.512 (0) finding files: 2021: adding to list (14)
+0009.512 (0) finding files: 2010: adding to list (15)
+0009.513 (0) finding files: woocommerce-placeholder-600x600.png: adding to list (16)
+0009.513 (0) finding files: 2013: adding to list (17)
+0009.514 (0) finding files: beans: adding to list (18)
+0009.514 (0) finding files: elementor: adding to list (19)
+0009.515 (0) finding files: woocommerce_uploads: adding to list (20)
+0009.515 (0) finding files: template-kits: adding to list (21)
+0009.516 (0) finding files: woocommerce-placeholder-100x100.png: adding to list (22)
+0009.516 (0) finding files: so-css: adding to list (23)
+0009.517 (0) finding files: 2014: adding to list (24)
+0009.517 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0009.628 (0) Total entities for the zip file: 38 directories, 797 files (0 skipped as non-modified), 91.9 MB
+0009.631 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0009.634 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0009.637 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (39.4 MB, 797 files batched, 269 (269) added so far); re-opening (prior size: 0 KB)
+0010.915 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-uploads.zip.tmp: size is now: 39.20 MB
+0010.918 (0) A useful amount of data was added after this amount of zip processing: 1.4 s (normalised: 0.9 s, rate: 28524.2 KB/s)
+0010.920 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.4128088951111, normalised_time=0.89748322123256, max_time=10.915819883347, data points known=1, old_max_bytes=26214400, new_max_bytes=191302742)
+0010.922 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-uploads.zip.tmp: 300 files added (on-disk size: 40093.1 KB)
+0010.924 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-uploads.zip.tmp: 400 files added (on-disk size: 40093.1 KB)
+0010.926 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-uploads.zip.tmp: 500 files added (on-disk size: 40093.1 KB)
+0010.928 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-uploads.zip.tmp: 600 files added (on-disk size: 40093.1 KB)
+0010.930 (0) Zip: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-uploads.zip.tmp: 700 files added (on-disk size: 40093.1 KB)
+0020.173 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-uploads.zip.tmp: size is now: 90.00 MB
+0020.211 (0) Creating zip file manifest (/home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-content/updraft/backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-uploads.zip.list-temp.tmp)
+0020.221 (0) Successfully created zip file manifest (size: 47576)
+0022.259 (0) Created uploads zip (0) - 92120 KB in 12.7 s (7265.7 KB/s) (sha1: 58188e458aae53e3cdb38262d7de7de75d8c3bb3, sha256: ca6f0d91d3b8bf768d045fcfdc2f7152b5328ea7ba693fbeb2636b2c4caa5b5e)
+0022.264 (0) Beginning backup of other directories found in the content directory (index: 0)
+0022.265 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0022.266 (0) Looking for candidates to backup in: /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-content
+0022.267 (0) finding files: mu-plugins: adding to list (1)
+0022.268 (0) finding files: upgrade: skipping: excluded by options
+0022.269 (0) finding files: endurance-page-cache: adding to list (2)
+0022.269 (0) finding files: index.php: adding to list (3)
+0022.270 (0) finding files: plugins: skipping: this is the plugins directory
+0022.271 (0) finding files: themes: skipping: this is the themes directory
+0022.272 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0022.272 (0) finding files: uploads: skipping: this is the uploads directory
+0022.273 (0) finding files: updraft: skipping: this is the updraft directory
+0022.442 (0) Total entities for the zip file: 6 directories, 6 files (0 skipped as non-modified), 0.4 MB
+0022.490 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-others.zip.tmp: size is now: 0.10 MB
+0022.500 (0) Creating zip file manifest (/home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-content/updraft/backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-others.zip.list-temp.tmp)
+0022.511 (0) Successfully created zip file manifest (size: 298)
+0022.529 (0) Created others zip (0) - 56.8 KB in 0.2 s (317.4 KB/s) (sha1: 91133433e34a619ca0494f78d62d008d968ff399, sha256: 8d1d727b406b0ff15f8e4fb113e8ad48e05ace32588377a99a43a8258cfa0734)
+0022.544 (0) Saving backup status to database (elements: 8)
+0022.554 (0) Beginning creation of database dump (WordPress DB)
+0022.560 (0) SQL compatibility mode is: NO_ENGINE_SUBSTITUTION
+0022.578 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0022.627 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wpsy_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nC (truncated - 1556 bytes total)
+0022.637 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0024.149 (0) Table wpsy_options: Total expected rows (via COUNT): 529
+0024.391 (0) Table wpsy_options: Rows added in this batch (next record: 5331): 525 (uncompressed bytes in this segment=4062714) in 1.24 seconds
+0024.454 (0) Table wpsy_options: finishing file(s) (2, 290.6 KB)
+0024.489 (0) Table wpsy_users: Total expected rows (via COUNT): 1
+0024.493 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.516 (0) Table wpsy_users: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=1347) in 0.05 seconds
+0024.586 (0) Table wpsy_users: finishing file(s) (2, 0.6 KB)
+0024.721 (0) Table wpsy_usermeta: Total expected rows (via COUNT): 23
+0024.756 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0024.775 (0) Table wpsy_usermeta: Rows added in this batch (next record: 163): 23 (uncompressed bytes in this segment=2438) in 0.08 seconds
+0024.841 (0) Table wpsy_usermeta: finishing file(s) (2, 1.2 KB)
+0024.991 (0) Table wpsy_commentmeta: Total expected rows (via COUNT): 0
+0025.000 (0) Table wpsy_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.09 seconds
+0025.007 (0) Table wpsy_commentmeta: finishing file(s) (2, 0.4 KB)
+0025.027 (0) Table wpsy_comments: Total expected rows (via COUNT): 0
+0025.042 (0) Table wpsy_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1728) in 0.02 seconds
+0025.057 (0) Table wpsy_comments: finishing file(s) (2, 0.5 KB)
+0025.078 (0) Table wpsy_links: Total expected rows (via COUNT): 0
+0025.092 (0) Table wpsy_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1282) in 0.02 seconds
+0025.148 (0) Table wpsy_links: finishing file(s) (2, 0.5 KB)
+0025.253 (0) Table wpsy_postmeta: Total expected rows (approximate): 1060
+0025.287 (0) Table wpsy_postmeta: Rows added in this batch (next record: 3574): 1076 (uncompressed bytes in this segment=465693) in 0.11 seconds
+0025.402 (0) Table wpsy_postmeta: finishing file(s) (2, 37.8 KB)
+0025.641 (0) Table wpsy_posts: Total expected rows (via COUNT): 186
+0025.647 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.687 (0) Table wpsy_posts: Rows added in this batch (next record: 2301): 186 (uncompressed bytes in this segment=114377) in 0.26 seconds
+0025.729 (0) Table wpsy_posts: finishing file(s) (2, 12.4 KB)
+0025.767 (0) Table wpsy_term_relationships: Total expected rows (approximate): 71
+0025.822 (0) Table wpsy_term_relationships: Rows added in this batch (next record: 100000): 72 (uncompressed bytes in this segment=1868) in 0.06 seconds
+0025.870 (0) Table wpsy_term_relationships: finishing file(s) (2, 0.6 KB)
+0025.981 (0) Table wpsy_term_taxonomy: Total expected rows (via COUNT): 219
+0025.983 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0025.989 (0) Table wpsy_term_taxonomy: Rows added in this batch (next record: 227): 219 (uncompressed bytes in this segment=9661) in 0.06 seconds
+0026.062 (0) Table wpsy_term_taxonomy: finishing file(s) (2, 2.1 KB)
+0026.175 (0) Table wpsy_termmeta: Total expected rows (via COUNT): 21
+0026.179 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.211 (0) Table wpsy_termmeta: Rows added in this batch (next record: 21): 21 (uncompressed bytes in this segment=1493) in 0.12 seconds
+0026.251 (0) Table wpsy_termmeta: finishing file(s) (2, 0.6 KB)
+0026.303 (0) Table wpsy_terms: Total expected rows (via COUNT): 219
+0026.304 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.311 (0) Table wpsy_terms: Rows added in this batch (next record: 227): 219 (uncompressed bytes in this segment=8489) in 0.04 seconds
+0026.316 (0) Table wpsy_terms: finishing file(s) (2, 2.8 KB)
+0026.399 (0) Table wpsy_actionscheduler_actions: Total expected rows (via COUNT): 13
+0026.401 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.404 (0) Table wpsy_actionscheduler_actions: Rows added in this batch (next record: 58): 13 (uncompressed bytes in this segment=6090) in 0.04 seconds
+0026.412 (0) Table wpsy_actionscheduler_actions: finishing file(s) (2, 1.2 KB)
+0026.451 (0) Table wpsy_actionscheduler_claims: Total expected rows (via COUNT): 0
+0026.471 (0) Table wpsy_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=623) in 0.05 seconds
+0026.483 (0) Table wpsy_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0026.506 (0) Table wpsy_actionscheduler_groups: Total expected rows (via COUNT): 3
+0026.507 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.517 (0) Table wpsy_actionscheduler_groups: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=750) in 0.02 seconds
+0026.523 (0) Table wpsy_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0026.540 (0) Table wpsy_actionscheduler_logs: Total expected rows (via COUNT): 39
+0026.541 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.546 (0) Table wpsy_actionscheduler_logs: Rows added in this batch (next record: 159): 39 (uncompressed bytes in this segment=4144) in 0.02 seconds
+0026.552 (0) Table wpsy_actionscheduler_logs: finishing file(s) (2, 0.9 KB)
+0026.576 (0) Table wpsy_aioseo_notifications: Total expected rows (via COUNT): 0
+0026.579 (0) Table wpsy_aioseo_notifications: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1570) in 0.02 seconds
+0026.586 (0) Table wpsy_aioseo_notifications: finishing file(s) (2, 0.5 KB)
+0026.613 (0) Table wpsy_aioseo_posts: Total expected rows (via COUNT): 0
+0026.615 (0) Table wpsy_aioseo_posts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=3228) in 0.02 seconds
+0026.623 (0) Table wpsy_aioseo_posts: finishing file(s) (2, 0.8 KB)
+0026.649 (0) Table wpsy_nf3_action_meta: Total expected rows (via COUNT): 152
+0026.649 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.653 (0) Table wpsy_nf3_action_meta: Rows added in this batch (next record: 152): 152 (uncompressed bytes in this segment=12729) in 0.02 seconds
+0026.661 (0) Table wpsy_nf3_action_meta: finishing file(s) (2, 2.1 KB)
+0026.704 (0) Table wpsy_nf3_actions: Total expected rows (via COUNT): 8
+0026.705 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.710 (0) Table wpsy_nf3_actions: Rows added in this batch (next record: 8): 8 (uncompressed bytes in this segment=1498) in 0.04 seconds
+0026.739 (0) Table wpsy_nf3_actions: finishing file(s) (2, 0.6 KB)
+0026.781 (0) Table wpsy_nf3_chunks: Total expected rows (via COUNT): 2
+0026.788 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0026.805 (0) Table wpsy_nf3_chunks: Rows added in this batch (next record: 3): 2 (uncompressed bytes in this segment=126945) in 0.06 seconds
+0026.847 (0) Table wpsy_nf3_chunks: finishing file(s) (2, 9.2 KB)
+0026.939 (0) Table wpsy_nf3_field_meta: Total expected rows (via COUNT): 755
+0026.941 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.021 (0) Table wpsy_nf3_field_meta: Rows added in this batch (next record: 830): 755 (uncompressed bytes in this segment=337246) in 0.17 seconds
+0027.039 (0) Table wpsy_nf3_field_meta: finishing file(s) (2, 15.4 KB)
+0027.071 (0) Table wpsy_nf3_fields: Total expected rows (via COUNT): 35
+0027.072 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.086 (0) Table wpsy_nf3_fields: Rows added in this batch (next record: 40): 35 (uncompressed bytes in this segment=8226) in 0.03 seconds
+0027.104 (0) Table wpsy_nf3_fields: finishing file(s) (2, 1.8 KB)
+0027.126 (0) Table wpsy_nf3_form_meta: Total expected rows (via COUNT): 148
+0027.127 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.134 (0) Table wpsy_nf3_form_meta: Rows added in this batch (next record: 148): 148 (uncompressed bytes in this segment=18321) in 0.02 seconds
+0027.140 (0) Table wpsy_nf3_form_meta: finishing file(s) (2, 3.3 KB)
+0027.250 (0) Table wpsy_nf3_forms: Total expected rows (via COUNT): 2
+0027.253 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.277 (0) Table wpsy_nf3_forms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1264) in 0.13 seconds
+0027.308 (0) Table wpsy_nf3_forms: finishing file(s) (2, 0.6 KB)
+0027.333 (0) Table wpsy_nf3_object_meta: Total expected rows (via COUNT): 0
+0027.338 (0) Table wpsy_nf3_object_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=544) in 0.01 seconds
+0027.358 (0) Table wpsy_nf3_object_meta: finishing file(s) (2, 0.3 KB)
+0027.391 (0) Table wpsy_nf3_objects: Total expected rows (via COUNT): 0
+0027.395 (0) Table wpsy_nf3_objects: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=586) in 0.02 seconds
+0027.402 (0) Table wpsy_nf3_objects: finishing file(s) (2, 0.4 KB)
+0027.421 (0) Table wpsy_nf3_relationships: Total expected rows (via COUNT): 0
+0027.423 (0) Table wpsy_nf3_relationships: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=688) in 0.01 seconds
+0027.429 (0) Table wpsy_nf3_relationships: finishing file(s) (2, 0.4 KB)
+0027.468 (0) Table wpsy_nf3_upgrades: Total expected rows (via COUNT): 2
+0027.470 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.480 (0) Table wpsy_nf3_upgrades: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=189595) in 0.04 seconds
+0027.507 (0) Table wpsy_nf3_upgrades: finishing file(s) (2, 12.9 KB)
+0027.530 (0) Table wpsy_wc_admin_note_actions: Total expected rows (via COUNT): 68
+0027.531 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.542 (0) Table wpsy_wc_admin_note_actions: Rows added in this batch (next record: 2408): 68 (uncompressed bytes in this segment=11953) in 0.03 seconds
+0027.555 (0) Table wpsy_wc_admin_note_actions: finishing file(s) (2, 2.7 KB)
+0027.574 (0) Table wpsy_wc_admin_notes: Total expected rows (via COUNT): 62
+0027.578 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0027.582 (0) Table wpsy_wc_admin_notes: Rows added in this batch (next record: 62): 62 (uncompressed bytes in this segment=30418) in 0.02 seconds
+0027.589 (0) Table wpsy_wc_admin_notes: finishing file(s) (2, 7.5 KB)
+0027.604 (0) Table wpsy_wc_category_lookup: Total expected rows (approximate): 10
+0027.609 (0) Table wpsy_wc_category_lookup: Rows added in this batch (next record: 1000): 10 (uncompressed bytes in this segment=717) in 0.01 seconds
+0027.613 (0) Table wpsy_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0027.638 (0) Table wpsy_wc_customer_lookup: Total expected rows (via COUNT): 0
+0027.641 (0) Table wpsy_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1242) in 0.02 seconds
+0027.647 (0) Table wpsy_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0027.744 (0) Table wpsy_wc_download_log: Total expected rows (via COUNT): 0
+0027.749 (0) Table wpsy_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=751) in 0.09 seconds
+0027.814 (0) Table wpsy_wc_download_log: finishing file(s) (2, 0.4 KB)
+0027.830 (0) Table wpsy_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0027.912 (0) Table wpsy_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=725) in 0.09 seconds
+0027.970 (0) Table wpsy_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0028.042 (0) Table wpsy_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0028.045 (0) Table wpsy_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1235) in 0.06 seconds
+0028.049 (0) Table wpsy_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0028.065 (0) Table wpsy_wc_order_stats: Total expected rows (via COUNT): 0
+0028.068 (0) Table wpsy_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1126) in 0.01 seconds
+0028.075 (0) Table wpsy_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0028.091 (0) Table wpsy_wc_order_tax_lookup: Total expected rows (approximate): 0
+0028.102 (0) Table wpsy_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=807) in 0.02 seconds
+0028.108 (0) Table wpsy_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0028.126 (0) Table wpsy_wc_product_meta_lookup: Total expected rows (via COUNT): 25
+0028.127 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0028.132 (0) Table wpsy_wc_product_meta_lookup: Rows added in this batch (next record: 1857): 25 (uncompressed bytes in this segment=4007) in 0.01 seconds
+0028.137 (0) Table wpsy_wc_product_meta_lookup: finishing file(s) (2, 0.9 KB)
+0028.151 (0) Table wpsy_wc_rate_limits: Total expected rows (via COUNT): 0
+0028.154 (0) Table wpsy_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=644) in 0.01 seconds
+0028.159 (0) Table wpsy_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0028.172 (0) Table wpsy_wc_reserved_stock: Total expected rows (approximate): 0
+0028.176 (0) Table wpsy_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=673) in 0.01 seconds
+0028.182 (0) Table wpsy_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0028.202 (0) Table wpsy_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0028.204 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0028.209 (0) Table wpsy_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=814) in 0.02 seconds
+0028.214 (0) Table wpsy_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0028.239 (0) Table wpsy_wc_webhooks: Total expected rows (via COUNT): 0
+0028.245 (0) Table wpsy_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1218) in 0.02 seconds
+0028.335 (0) Table wpsy_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0028.372 (0) Table wpsy_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0028.374 (0) Table wpsy_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1030) in 0.03 seconds
+0028.383 (0) Table wpsy_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0028.405 (0) Table wpsy_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 2
+0028.406 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0028.411 (0) Table wpsy_woocommerce_attribute_taxonomies: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1129) in 0.01 seconds
+0028.417 (0) Table wpsy_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.5 KB)
+0028.436 (0) Table wpsy_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0028.440 (0) Table wpsy_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1530) in 0.01 seconds
+0028.445 (0) Table wpsy_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0028.475 (0) Table wpsy_woocommerce_log: Total expected rows (via COUNT): 0
+0028.477 (0) Table wpsy_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=718) in 0.02 seconds
+0028.481 (0) Table wpsy_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0028.498 (0) Table wpsy_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0028.500 (0) Table wpsy_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=771) in 0.01 seconds
+0028.505 (0) Table wpsy_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0028.520 (0) Table wpsy_woocommerce_order_items: Total expected rows (via COUNT): 0
+0028.524 (0) Table wpsy_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=739) in 0.01 seconds
+0028.528 (0) Table wpsy_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0028.556 (0) Table wpsy_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0028.559 (0) Table wpsy_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=798) in 0.02 seconds
+0028.566 (0) Table wpsy_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0028.583 (0) Table wpsy_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0028.588 (0) Table wpsy_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=837) in 0.01 seconds
+0028.593 (0) Table wpsy_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0028.613 (0) Table wpsy_woocommerce_sessions: Total expected rows (via COUNT): 1
+0028.614 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0028.618 (0) Table wpsy_woocommerce_sessions: Rows added in this batch (next record: 13): 1 (uncompressed bytes in this segment=2200) in 0.02 seconds
+0028.624 (0) Table wpsy_woocommerce_sessions: finishing file(s) (2, 0.9 KB)
+0028.640 (0) Table wpsy_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0028.644 (0) Table wpsy_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=874) in 0.01 seconds
+0028.649 (0) Table wpsy_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0028.665 (0) Table wpsy_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0028.669 (0) Table wpsy_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=779) in 0.01 seconds
+0028.693 (0) Table wpsy_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0028.709 (0) Table wpsy_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0028.711 (0) Table wpsy_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=637) in 0.01 seconds
+0028.769 (0) Table wpsy_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0028.791 (0) Table wpsy_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0028.793 (0) Table wpsy_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=848) in 0.01 seconds
+0028.797 (0) Table wpsy_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0028.823 (0) Table wpsy_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0028.826 (0) Table wpsy_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1289) in 0.02 seconds
+0028.833 (0) Table wpsy_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0028.873 (0) Table wpsy_wpforms_tasks_meta: Total expected rows (via COUNT): 4
+0028.874 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0028.893 (0) Table wpsy_wpforms_tasks_meta: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1003) in 0.04 seconds
+0028.905 (0) Table wpsy_wpforms_tasks_meta: finishing file(s) (2, 0.5 KB)
+0028.924 (0) Table wpsy_yoast_indexable: Total expected rows (via COUNT): 9
+0028.926 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0028.934 (0) Table wpsy_yoast_indexable: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=7976) in 0.02 seconds
+0028.947 (0) Table wpsy_yoast_indexable: finishing file(s) (2, 1.7 KB)
+0028.959 (0) Table wpsy_yoast_indexable_hierarchy: Total expected rows (approximate): 0
+0028.967 (0) Table wpsy_yoast_indexable_hierarchy: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=786) in 0.01 seconds
+0028.972 (0) Table wpsy_yoast_indexable_hierarchy: finishing file(s) (2, 0.4 KB)
+0028.988 (0) Table wpsy_yoast_migrations: Total expected rows (via COUNT): 23
+0028.989 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0028.994 (0) Table wpsy_yoast_migrations: Rows added in this batch (next record: 23): 23 (uncompressed bytes in this segment=1258) in 0.01 seconds
+0028.999 (0) Table wpsy_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0029.029 (0) Table wpsy_yoast_primary_term: Total expected rows (via COUNT): 0
+0029.035 (0) Table wpsy_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=870) in 0.02 seconds
+0029.040 (0) Table wpsy_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0029.059 (0) Table wpsy_yoast_seo_links: Total expected rows (via COUNT): 1
+0029.061 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0029.066 (0) Table wpsy_yoast_seo_links: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1174) in 0.01 seconds
+0029.087 (0) Table wpsy_yoast_seo_links: finishing file(s) (2, 0.5 KB)
+0029.095 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_options.table.tmpr5332.gz (1/63/fopen): adding to final database dump
+0029.112 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_options.table.gz (2/63/fopen): adding to final database dump
+0029.114 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_users.table.tmpr3.gz (3/63/fopen): adding to final database dump
+0029.115 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_users.table.gz (4/63/fopen): adding to final database dump
+0029.116 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_usermeta.table.tmpr164.gz (5/63/fopen): adding to final database dump
+0029.120 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_usermeta.table.gz (6/63/fopen): adding to final database dump
+0029.121 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_commentmeta.table.tmpr0.gz (7/63/fopen): adding to final database dump
+0029.132 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_commentmeta.table.gz (8/63/fopen): adding to final database dump
+0029.137 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_comments.table.tmpr0.gz (9/63/fopen): adding to final database dump
+0029.138 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_comments.table.gz (10/63/fopen): adding to final database dump
+0029.140 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_links.table.tmpr0.gz (11/63/fopen): adding to final database dump
+0029.141 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_links.table.gz (12/63/fopen): adding to final database dump
+0029.142 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_postmeta.table.tmpr3575.gz (13/63/fopen): adding to final database dump
+0029.155 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_postmeta.table.gz (14/63/fopen): adding to final database dump
+0029.156 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_posts.table.tmpr2302.gz (15/63/fopen): adding to final database dump
+0029.158 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_posts.table.gz (16/63/fopen): adding to final database dump
+0029.159 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_term_relationships.table.tmpr100001.gz (17/63/fopen): adding to final database dump
+0029.159 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_term_relationships.table.gz (18/63/fopen): adding to final database dump
+0029.161 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_term_taxonomy.table.tmpr228.gz (19/63/fopen): adding to final database dump
+0029.161 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_term_taxonomy.table.gz (20/63/fopen): adding to final database dump
+0029.162 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_termmeta.table.tmpr22.gz (21/63/fopen): adding to final database dump
+0029.163 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_termmeta.table.gz (22/63/fopen): adding to final database dump
+0029.164 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_terms.table.tmpr228.gz (23/63/fopen): adding to final database dump
+0029.168 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_terms.table.gz (24/63/fopen): adding to final database dump
+0029.169 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_actionscheduler_actions.table.tmpr59.gz (25/63/fopen): adding to final database dump
+0029.170 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_actionscheduler_actions.table.gz (26/63/fopen): adding to final database dump
+0029.171 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_actionscheduler_claims.table.tmpr0.gz (27/63/fopen): adding to final database dump
+0029.171 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_actionscheduler_claims.table.gz (28/63/fopen): adding to final database dump
+0029.172 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_actionscheduler_groups.table.tmpr4.gz (29/63/fopen): adding to final database dump
+0029.175 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_actionscheduler_groups.table.gz (30/63/fopen): adding to final database dump
+0029.176 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_actionscheduler_logs.table.tmpr160.gz (31/63/fopen): adding to final database dump
+0029.177 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_actionscheduler_logs.table.gz (32/63/fopen): adding to final database dump
+0029.178 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_aioseo_notifications.table.tmpr0.gz (33/63/fopen): adding to final database dump
+0029.179 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_aioseo_notifications.table.gz (34/63/fopen): adding to final database dump
+0029.180 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_aioseo_posts.table.tmpr0.gz (35/63/fopen): adding to final database dump
+0029.180 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_aioseo_posts.table.gz (36/63/fopen): adding to final database dump
+0029.181 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_nf3_action_meta.table.tmpr153.gz (37/63/fopen): adding to final database dump
+0029.182 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_nf3_action_meta.table.gz (38/63/fopen): adding to final database dump
+0029.183 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_nf3_actions.table.tmpr9.gz (39/63/fopen): adding to final database dump
+0029.184 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_nf3_actions.table.gz (40/63/fopen): adding to final database dump
+0029.184 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_nf3_chunks.table.tmpr4.gz (41/63/fopen): adding to final database dump
+0029.185 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_nf3_chunks.table.gz (42/63/fopen): adding to final database dump
+0029.186 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_nf3_field_meta.table.tmpr831.gz (43/63/fopen): adding to final database dump
+0029.187 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_nf3_field_meta.table.gz (44/63/fopen): adding to final database dump
+0029.188 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_nf3_fields.table.tmpr41.gz (45/63/fopen): adding to final database dump
+0029.190 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_nf3_fields.table.gz (46/63/fopen): adding to final database dump
+0029.190 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_nf3_form_meta.table.tmpr149.gz (47/63/fopen): adding to final database dump
+0029.191 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_nf3_form_meta.table.gz (48/63/fopen): adding to final database dump
+0029.193 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_nf3_forms.table.tmpr3.gz (49/63/fopen): adding to final database dump
+0029.194 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_nf3_forms.table.gz (50/63/fopen): adding to final database dump
+0029.194 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_nf3_object_meta.table.tmpr0.gz (51/63/fopen): adding to final database dump
+0029.195 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_nf3_object_meta.table.gz (52/63/fopen): adding to final database dump
+0029.196 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_nf3_objects.table.tmpr0.gz (53/63/fopen): adding to final database dump
+0029.197 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_nf3_objects.table.gz (54/63/fopen): adding to final database dump
+0029.198 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_nf3_relationships.table.tmpr0.gz (55/63/fopen): adding to final database dump
+0029.199 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_nf3_relationships.table.gz (56/63/fopen): adding to final database dump
+0029.199 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_nf3_upgrades.table.tmpr3.gz (57/63/fopen): adding to final database dump
+0029.201 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_nf3_upgrades.table.gz (58/63/fopen): adding to final database dump
+0029.202 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wc_admin_note_actions.table.tmpr2409.gz (59/63/fopen): adding to final database dump
+0029.202 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wc_admin_note_actions.table.gz (60/63/fopen): adding to final database dump
+0029.203 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wc_admin_notes.table.tmpr63.gz (61/63/fopen): adding to final database dump
+0029.204 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wc_admin_notes.table.gz (62/63/fopen): adding to final database dump
+0029.205 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wc_category_lookup.table.tmpr1001.gz (63/63/fopen): adding to final database dump
+0029.206 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wc_category_lookup.table.gz (64/63/fopen): adding to final database dump
+0029.207 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wc_customer_lookup.table.tmpr0.gz (65/63/fopen): adding to final database dump
+0029.208 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wc_customer_lookup.table.gz (66/63/fopen): adding to final database dump
+0029.208 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wc_download_log.table.tmpr0.gz (67/63/fopen): adding to final database dump
+0029.209 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wc_download_log.table.gz (68/63/fopen): adding to final database dump
+0029.210 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wc_order_coupon_lookup.table.tmpr1.gz (69/63/fopen): adding to final database dump
+0029.211 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wc_order_coupon_lookup.table.gz (70/63/fopen): adding to final database dump
+0029.211 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wc_order_product_lookup.table.tmpr0.gz (71/63/fopen): adding to final database dump
+0029.212 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wc_order_product_lookup.table.gz (72/63/fopen): adding to final database dump
+0029.213 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wc_order_stats.table.tmpr0.gz (73/63/fopen): adding to final database dump
+0029.214 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wc_order_stats.table.gz (74/63/fopen): adding to final database dump
+0029.215 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wc_order_tax_lookup.table.tmpr1.gz (75/63/fopen): adding to final database dump
+0029.216 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wc_order_tax_lookup.table.gz (76/63/fopen): adding to final database dump
+0029.217 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wc_product_meta_lookup.table.tmpr1858.gz (77/63/fopen): adding to final database dump
+0029.218 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wc_product_meta_lookup.table.gz (78/63/fopen): adding to final database dump
+0029.218 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wc_rate_limits.table.tmpr0.gz (79/63/fopen): adding to final database dump
+0029.219 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wc_rate_limits.table.gz (80/63/fopen): adding to final database dump
+0029.221 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wc_reserved_stock.table.tmpr1.gz (81/63/fopen): adding to final database dump
+0029.222 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wc_reserved_stock.table.gz (82/63/fopen): adding to final database dump
+0029.223 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wc_tax_rate_classes.table.tmpr3.gz (83/63/fopen): adding to final database dump
+0029.224 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wc_tax_rate_classes.table.gz (84/63/fopen): adding to final database dump
+0029.224 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wc_webhooks.table.tmpr0.gz (85/63/fopen): adding to final database dump
+0029.225 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wc_webhooks.table.gz (86/63/fopen): adding to final database dump
+0029.226 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_woocommerce_api_keys.table.tmpr0.gz (87/63/fopen): adding to final database dump
+0029.227 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_woocommerce_api_keys.table.gz (88/63/fopen): adding to final database dump
+0029.228 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_woocommerce_attribute_taxonomies.table.tmpr3.gz (89/63/fopen): adding to final database dump
+0029.228 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_woocommerce_attribute_taxonomies.table.gz (90/63/fopen): adding to final database dump
+0029.229 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_woocommerce_downloadable_product_permissions.table.tmpr0.gz (91/63/fopen): adding to final database dump
+0029.230 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_woocommerce_downloadable_product_permissions.table.gz (92/63/fopen): adding to final database dump
+0029.231 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_woocommerce_log.table.tmpr0.gz (93/63/fopen): adding to final database dump
+0029.232 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_woocommerce_log.table.gz (94/63/fopen): adding to final database dump
+0029.233 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_woocommerce_order_itemmeta.table.tmpr0.gz (95/63/fopen): adding to final database dump
+0029.233 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_woocommerce_order_itemmeta.table.gz (96/63/fopen): adding to final database dump
+0029.234 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_woocommerce_order_items.table.tmpr0.gz (97/63/fopen): adding to final database dump
+0029.235 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_woocommerce_order_items.table.gz (98/63/fopen): adding to final database dump
+0029.236 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_woocommerce_payment_tokenmeta.table.tmpr0.gz (99/63/fopen): adding to final database dump
+0029.239 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_woocommerce_payment_tokenmeta.table.gz (100/63/fopen): adding to final database dump
+0029.239 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_woocommerce_payment_tokens.table.tmpr0.gz (101/63/fopen): adding to final database dump
+0029.240 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_woocommerce_payment_tokens.table.gz (102/63/fopen): adding to final database dump
+0029.241 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_woocommerce_sessions.table.tmpr14.gz (103/63/fopen): adding to final database dump
+0029.242 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_woocommerce_sessions.table.gz (104/63/fopen): adding to final database dump
+0029.242 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_woocommerce_shipping_zone_locations.table.tmpr0.gz (105/63/fopen): adding to final database dump
+0029.243 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_woocommerce_shipping_zone_locations.table.gz (106/63/fopen): adding to final database dump
+0029.243 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_woocommerce_shipping_zone_methods.table.tmpr0.gz (107/63/fopen): adding to final database dump
+0029.244 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_woocommerce_shipping_zone_methods.table.gz (108/63/fopen): adding to final database dump
+0029.245 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_woocommerce_shipping_zones.table.tmpr0.gz (109/63/fopen): adding to final database dump
+0029.245 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_woocommerce_shipping_zones.table.gz (110/63/fopen): adding to final database dump
+0029.246 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_woocommerce_tax_rate_locations.table.tmpr0.gz (111/63/fopen): adding to final database dump
+0029.246 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_woocommerce_tax_rate_locations.table.gz (112/63/fopen): adding to final database dump
+0029.247 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_woocommerce_tax_rates.table.tmpr0.gz (113/63/fopen): adding to final database dump
+0029.248 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_woocommerce_tax_rates.table.gz (114/63/fopen): adding to final database dump
+0029.248 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wpforms_tasks_meta.table.tmpr5.gz (115/63/fopen): adding to final database dump
+0029.249 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_wpforms_tasks_meta.table.gz (116/63/fopen): adding to final database dump
+0029.249 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_yoast_indexable.table.tmpr10.gz (117/63/fopen): adding to final database dump
+0029.250 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_yoast_indexable.table.gz (118/63/fopen): adding to final database dump
+0029.251 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_yoast_indexable_hierarchy.table.tmpr1.gz (119/63/fopen): adding to final database dump
+0029.251 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_yoast_indexable_hierarchy.table.gz (120/63/fopen): adding to final database dump
+0029.252 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_yoast_migrations.table.tmpr24.gz (121/63/fopen): adding to final database dump
+0029.252 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_yoast_migrations.table.gz (122/63/fopen): adding to final database dump
+0029.253 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_yoast_primary_term.table.tmpr0.gz (123/63/fopen): adding to final database dump
+0029.253 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_yoast_primary_term.table.gz (124/63/fopen): adding to final database dump
+0029.254 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_yoast_seo_links.table.tmpr2.gz (125/63/fopen): adding to final database dump
+0029.255 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db-table-wpsy_yoast_seo_links.table.gz (126/63/fopen): adding to final database dump
+0029.296 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db.gz: finished writing out complete database file (426.5 KB)
+0029.318 (0) Total database tables backed up: 63 (backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db.gz, size: 436878, sha1: 0ea66a07c62d13619ae014278516db7d94dca368, sha256: 5eed2032a1511233bdc0dc494b9d6f1d1a08744b15724b679b39a6229d335f4c)
+0029.326 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0029.328 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0029.410 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0029.412 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-others.zip: others: This file has not yet been successfully uploaded: will queue
+0029.415 (0) backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db.gz: db: This file has not yet been successfully uploaded: will queue
+0029.417 (0) Saving backup history. Total backup size: 112.7 MB
+0029.430 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0029.441 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0029.444 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-b832ee6b58bcce38fc49570aaecb1fbc)
+0031.830 (0) Google Drive: quota usage: used=1032.7 MB, total=15360 MB, available=14327.3 MB
+0031.831 (0) Google Drive: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip: Attempting to upload to Google Drive (into folder id: 1sRDFjZdvioa9EJk7B1Uwkhez1ZTln1XX)
+0032.613 (0) Googledrive chunked upload: 7.6 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 40.7 / 48.5)
+0033.189 (0) Googledrive chunked upload: 22.8 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 40.7 / 48.5)
+0033.967 (0) Googledrive chunked upload: 53.3 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 40.7 / 48.5)
+0036.049 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0036.059 (0) Google Drive: OK: Archive backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip uploaded in 4.22 seconds
+0036.063 (0) Recording as successfully uploaded: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip
+0036.068 (0) Deleting local file: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip: OK
+0036.069 (0) Deleting zip manifest (backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-plugins.zip.list.tmp)
+0036.291 (0) Google Drive: quota usage: used=1032.7 MB, total=15360 MB, available=14327.3 MB
+0036.294 (0) Google Drive: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-themes.zip: Attempting to upload to Google Drive (into folder id: 1sRDFjZdvioa9EJk7B1Uwkhez1ZTln1XX)
+0036.970 (0) Googledrive chunked upload: 10.9 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 40.7 / 48.5)
+0037.424 (0) Googledrive chunked upload: 32.8 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 40.7 / 48.5)
+0038.004 (0) Googledrive chunked upload: 76.5 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 40.7 / 48.5)
+0039.223 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0039.228 (0) Google Drive: OK: Archive backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-themes.zip uploaded in 2.93 seconds
+0039.230 (0) Recording as successfully uploaded: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-themes.zip
+0039.235 (0) Deleting local file: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-themes.zip: OK
+0039.237 (0) Deleting zip manifest (backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-themes.zip.list.tmp)
+0039.534 (0) Google Drive: quota usage: used=1055 MB, total=15360 MB, available=14305 MB
+0039.535 (0) Google Drive: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-uploads.zip: Attempting to upload to Google Drive (into folder id: 1sRDFjZdvioa9EJk7B1Uwkhez1ZTln1XX)
+0040.241 (0) Googledrive chunked upload: 1.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 40.7 / 48.5)
+0040.685 (0) Googledrive chunked upload: 3.3 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 40.7 / 48.5)
+0041.793 (0) Googledrive chunked upload: 7.8 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 40.7 / 48.5)
+0042.849 (0) Googledrive chunked upload: 16.7 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 40.7 / 48.5)
+0044.184 (0) Googledrive chunked upload: 34.5 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 40.7 / 48.5)
+0045.617 (0) Googledrive chunked upload: 70 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 40.7 / 48.5)
+0047.610 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0047.619 (0) Google Drive: OK: Archive backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-uploads.zip uploaded in 8.08 seconds
+0047.624 (0) Recording as successfully uploaded: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-uploads.zip
+0047.661 (0) Deleting local file: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-uploads.zip: OK
+0047.664 (0) Deleting zip manifest (backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-uploads.zip.list.tmp)
+0047.995 (0) Google Drive: quota usage: used=1144.9 MB, total=15360 MB, available=14215.1 MB
+0047.999 (0) Google Drive: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-others.zip: Attempting to upload to Google Drive (into folder id: 1sRDFjZdvioa9EJk7B1Uwkhez1ZTln1XX)
+0049.430 (0) Googledrive chunked upload: 100 % uploaded
+0049.481 (0) Google Drive: OK: Archive backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-others.zip uploaded in 1.48 seconds
+0049.482 (0) Recording as successfully uploaded: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-others.zip
+0049.490 (0) Deleting local file: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-others.zip: OK
+0049.494 (0) Deleting zip manifest (backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-others.zip.list.tmp)
+0049.837 (0) Google Drive: quota usage: used=1144.9 MB, total=15360 MB, available=14215.1 MB
+0049.839 (0) Google Drive: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db.gz: Attempting to upload to Google Drive (into folder id: 1sRDFjZdvioa9EJk7B1Uwkhez1ZTln1XX)
+0051.290 (0) Googledrive chunked upload: 100 % uploaded
+0051.295 (0) Google Drive: OK: Archive backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db.gz uploaded in 1.45 seconds
+0051.296 (0) Recording as successfully uploaded: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db.gz
+0051.430 (0) Deleting local file: backup_2022-03-03-1649_LMS_Evaluation_Tool_06ef47355f51-db.gz: OK
+0051.493 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0051.503 (0) Number of backup sets in history: 3; groups (db): 1
+0051.510 (0) Examining (for databases) backup set with group_id=0, nonce=06ef47355f51, datestamp=1646344188 (Mar 03 2022 21:49:48)
+0051.512 (0) This backup set is the backup set just made, so will not be deleted.
+0051.512 (0) Examining (for databases) backup set with group_id=0, nonce=2277b651d237, datestamp=1645833475 (Feb 25 2022 23:57:55)
+0051.512 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0051.573 (0) Examining (for databases) backup set with group_id=0, nonce=b4d9ea9fc991, datestamp=1645134513 (Feb 17 2022 21:48:33)
+0051.573 (0) 1645134513: db: this set includes a database (backup_2022-02-17-1648_LMS_Evaluation_Tool_b4d9ea9fc991-db.gz); db count is now 2
+0051.573 (0) 1645134513: db: over retain limit (2); will delete this database
+0051.574 (0) Delete file: backup_2022-02-17-1648_LMS_Evaluation_Tool_b4d9ea9fc991-db.gz, service=googledrive
+0052.942 (0) Google Drive: backup_2022-02-17-1648_LMS_Evaluation_Tool_b4d9ea9fc991-db.gz: Deletion successful
+0052.966 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0052.970 (0) Number of backup sets in history: 3; groups (files): 1
+0052.971 (0) Examining (for files) backup set with nonce=06ef47355f51, datestamp=1646344188 (Mar 03 2022 21:49:48)
+0052.971 (0) This backup set is the backup set just made, so will not be deleted.
+0052.972 (0) This backup set is the backup set just made, so will not be deleted.
+0052.972 (0) This backup set is the backup set just made, so will not be deleted.
+0052.972 (0) This backup set is the backup set just made, so will not be deleted.
+0052.972 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0052.973 (0) Examining (for files) backup set with nonce=2277b651d237, datestamp=1645833475 (Feb 25 2022 23:57:55)
+0052.973 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0052.973 (0) Examining (for files) backup set with nonce=b4d9ea9fc991, datestamp=1645134513 (Feb 17 2022 21:48:33)
+0052.973 (0) plugins: over retain limit (2); will delete this file entity
+0052.973 (0) themes: over retain limit (2); will delete this file entity
+0052.973 (0) uploads: over retain limit (2); will delete this file entity
+0052.973 (0) others: over retain limit (2); will delete this file entity
+0052.973 (0) Delete file: backup_2022-02-17-1648_LMS_Evaluation_Tool_b4d9ea9fc991-plugins.zip, service=googledrive
+0052.974 (0) Delete file: backup_2022-02-17-1648_LMS_Evaluation_Tool_b4d9ea9fc991-themes.zip, service=googledrive
+0052.974 (0) Delete file: backup_2022-02-17-1648_LMS_Evaluation_Tool_b4d9ea9fc991-uploads.zip, service=googledrive
+0052.975 (0) Delete file: backup_2022-02-17-1648_LMS_Evaluation_Tool_b4d9ea9fc991-others.zip, service=googledrive
+0053.932 (0) Google Drive: backup_2022-02-17-1648_LMS_Evaluation_Tool_b4d9ea9fc991-others.zip: Deletion successful
+0054.404 (0) Google Drive: backup_2022-02-17-1648_LMS_Evaluation_Tool_b4d9ea9fc991-uploads.zip: Deletion successful
+0054.902 (0) Google Drive: backup_2022-02-17-1648_LMS_Evaluation_Tool_b4d9ea9fc991-themes.zip: Deletion successful
+0055.471 (0) Google Drive: backup_2022-02-17-1648_LMS_Evaluation_Tool_b4d9ea9fc991-plugins.zip: Deletion successful
+0055.597 (0) This backup set is now empty; will remove from history
+0055.599 (0) Deleting log file (log.b4d9ea9fc991.txt)
+0055.655 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0055.680 (0) Resume backup (06ef47355f51, 0): finish run
+0055.730 (0) Decremented the semaphore (fd) by 1
+0055.742 (0) Semaphore (fd) unlocked
+0055.747 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0055.761 (0) No email will/can be sent - the user has not configured an email address.
+0055.802 (0) The backup apparently succeeded and is now complete

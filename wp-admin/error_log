@@ -1,0 +1,21 @@
+[05-Jan-2022 17:23:41 UTC] PHP Warning:  Creating default object from empty value in /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php on line 56
+[05-Jan-2022 17:23:41 UTC] PHP Warning:  Creating default object from empty value in /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php on line 56
+[05-Jan-2022 17:23:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php:56) in /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-includes/functions.php on line 6712
+[05-Jan-2022 17:23:41 UTC] PHP Warning:  Creating default object from empty value in /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php on line 56
+[05-Jan-2022 17:23:41 UTC] PHP Warning:  Creating default object from empty value in /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php on line 56
+[05-Jan-2022 17:23:42 UTC] WordPress database error Specified key was too long; max key length is 767 bytes for query CREATE TABLE wpsy_ce4wp_contacts (
+			contact_id bigint(20) unsigned NOT NULL AUTO_INCREMENT,
+			email varchar(200) NOT NULL DEFAULT '',
+			first_name varchar(200) DEFAULT '',
+			last_name varchar(200) DEFAULT '',
+			telephone varchar(200) DEFAULT '',
+            consent varchar(200) DEFAULT '',
+			PRIMARY KEY  (contact_id),
+			UNIQUE KEY email (email)
+		) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci made by require_once('wp-admin/admin.php'), do_action('admin_init'), WP_Hook->do_action, WP_Hook->apply_filters, CreativeMail\Managers\DatabaseManager->update_database_check, CreativeMail\Managers\DatabaseManager->create_contacts_table, dbDelta
+[05-Jan-2022 17:23:42 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php:56) in /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-admin/includes/misc.php on line 1310
+[05-Jan-2022 17:23:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php:56) in /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-admin/admin-header.php on line 9
+[05-Jan-2022 17:23:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php:56) in /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-includes/option.php on line 1097
+[05-Jan-2022 17:23:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-content/plugins/mojo-marketplace-wp-plugin/vendor/bluehost/endurance-wp-plugin-updater/Updater.php:56) in /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-includes/option.php on line 1098
+[05-Jan-2022 17:29:10 UTC] WordPress database error Table 'webcoded_wplmset.wpsy_options' doesn't exist for query SELECT option_value FROM wpsy_options WHERE option_name = '_transient_timeout_epc_throttled' LIMIT 1 made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/mu-plugins/endurance-page-cache.php'), Endurance_Page_Cache->__construct, get_transient, get_option
+[05-Jan-2022 17:53:53 UTC] PHP Warning:  Declaration of NinjaForms\Remote_Installer_Skin::feedback($string) should be compatible with WP_Upgrader_Skin::feedback($string, ...$args) in /home2/webcoded/raquelocasio.com/lmsevaluationtool/wp-content/plugins/ninja-forms/services/remote-installer-skin.php on line 20
